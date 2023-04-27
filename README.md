@@ -1,3 +1,3 @@
 # DesignPatterns
 
-Proyect design to lear about Android Design Patterns
+Project design to lear about Android Design Patterns
