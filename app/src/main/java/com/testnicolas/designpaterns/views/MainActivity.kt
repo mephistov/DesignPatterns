@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity() {
         binding.buttonAdapter.setOnClickListener {
             startActivity(Intent(this,ListAdapterActivity::class.java))
         }
+        binding.buttonFactory.setOnClickListener {
+            startActivity(Intent(this,FactoryPatternActivity::class.java))
+        }
+        binding.buttonPattern.setOnClickListener {
+            startActivity(Intent(this,BuilderPatternActivity::class.java))
+        }
     }
 
     fun setupObservers(){

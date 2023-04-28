@@ -22,9 +22,15 @@
             android:text="Adapter Pattern" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonFactory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Factory Pattern" />
+
+        <Button
+            android:id="@+id/buttonPattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Builder Pattern" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
