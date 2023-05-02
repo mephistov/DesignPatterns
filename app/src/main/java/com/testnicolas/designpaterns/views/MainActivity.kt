@@ -34,6 +34,9 @@ class MainActivity : AppCompatActivity() {
         binding.buttonPattern.setOnClickListener {
             startActivity(Intent(this,BuilderPatternActivity::class.java))
         }
+        binding.facadeButton.setOnClickListener {
+            startActivity(Intent(this,FacadePatternActivity::class.java))
+        }
     }
 
     fun setupObservers(){

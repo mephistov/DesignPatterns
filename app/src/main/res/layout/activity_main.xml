@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainconstraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".views.MainActivity">
@@ -32,5 +33,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Builder Pattern" />
+
+        <Button
+            android:id="@+id/facadeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facade Pattern" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

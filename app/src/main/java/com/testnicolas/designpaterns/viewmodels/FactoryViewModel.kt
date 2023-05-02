@@ -1,8 +1,11 @@
 package com.testnicolas.designpaterns.viewmodels
 
+import android.content.ClipData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.testnicolas.designpaterns.utils.AnimalFactory
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 
 class FactoryViewModel: ViewModel() {
 
@@ -16,4 +19,7 @@ class FactoryViewModel: ViewModel() {
         val animal = AnimalFactory.createAnimal(AnimalFactory.HORSE)
         animalPicture.postValue(animal?.showPicture())
     }
+
+
+
 }
